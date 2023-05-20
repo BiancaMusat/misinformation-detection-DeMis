@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Datasets, please download from the link in the repo.
-datasets
+# datasets
 
 # Trained models, you can download from the link in the repo or train a new model.
 trained_models
