@@ -55,7 +55,7 @@ def max_pooling(model_output, attention_mask):
 
 
 class SentenceEncoder():
-    def __init__(self, model_path='bert-base-uncased', use_gpu=True):
+    def __init__(self, model_path='digitalepidemiologylab/covid-twitter-bert-v2', use_gpu=True): #bert-base-uncased
         # Load AutoModel from huggingface model repository
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         self.model = AutoModel.from_pretrained(model_path)
